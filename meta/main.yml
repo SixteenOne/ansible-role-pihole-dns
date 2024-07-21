@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: "pihole_dns"
   author: SixteenOne
-  description: PiHole - Apply DNS & CNAME records to PiHole
+  description: PiHole - Apply DNS & CNAME records to PiHole Servers
   company: SixteenOne
 
   # If the issue tracker for your role is not on github, uncomment the

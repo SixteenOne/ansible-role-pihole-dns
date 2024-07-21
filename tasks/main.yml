@@ -1,6 +1,6 @@
 ---
 # tasks file for roles/pihole_dns
-- name: Create a DNS in a file
+- name: Create DNS records in a file
   ansible.builtin.template:
     src: pihole-dns.j2
     dest: /etc/pihole/custom.list
@@ -8,7 +8,7 @@
   when: pihole_dns_dns is defined
   notify: FTL Restart
 
-- name: Create a CNAME in a file
+- name: Create CNAME records in a file
   ansible.builtin.template:
     src: pihole-cname.j2
     dest: /etc/dnsmasq.d/05-pihole-custom-cname.conf
