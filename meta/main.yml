@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: "pihole_dns"
+  role_name: "pihole-dns"
   author: SixteenOne
   description: PiHole - Apply DNS & CNAME records to PiHole Servers
   company: SixteenOne
