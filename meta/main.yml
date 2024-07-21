@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: "pihole_dns"
   author: SixteenOne
   description: PiHole - Apply DNS & CNAME records to PiHole
   company: SixteenOne
@@ -28,9 +29,9 @@ galaxy_info:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
   platforms:
-  - name: Debian
-  - name: EL
-  - name: Ubuntu
+    - name: Debian
+    - name: EL
+    - name: Ubuntu
 
   #   versions:
   #   - all
