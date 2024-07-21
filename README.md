@@ -19,11 +19,11 @@ This role performs the following tasks:
 Define your DNS and CNAME records in the following variables:
 
 ```yaml
-pihole_dns_records:
-  - { domain: "example.com", ip: "192.168.1.100" }
+pihole_dns:
+  - { ip: 192.168.1.100, domain: example.com }
 
-pihole_cname_records:
-  - { alias: "www.example.com", domain: "example.com" }
+pihole_cname:
+  - { domain: www.example.com, target: example.com }
 ```
 
 ## Example Playbook
